@@ -55,7 +55,7 @@ p {
   background: #444b4c;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 320px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -180,7 +180,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 380px;
 }
 
 .main-wrapper .section-title {
@@ -211,7 +211,7 @@ p {
   text-align: center;
   font-size: 16px;
   position: relative;
-  top: -8px;
+  top: -4px;
 }
 
 .main-wrapper .section-title .icon-holder .svg-inline--fa {
