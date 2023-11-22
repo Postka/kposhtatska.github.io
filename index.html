@@ -1,160 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Orbit - Bootstrap 4 Resume/CV Template for Developers</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
-</head> 
+    <head>
+        <title>Orbit - Bootstrap 4 Resume/CV Template for Developers</title>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Kateryna Poshtatska</h1>
-                <h3 class="tagline">Business Analyst</h3>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: yourname@email.com">poshtatskayakatirina@gmail.com</a></li>
-                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:0123 456 789">+380 (63) 991 14 16</a></li>
-                   <!-- <li class="website"><i class="fas fa-globe"></i><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li> -->
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="#" target="_blank">www.linkedin.com/in/kateryna-poshtatska</a></li>
-                   <!-- <li class="github"><i class="fab fa-github"></i><a href="#" target="_blank">github.com/username</a></li>
-                   <!-- <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li> --> 
-                </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">Faculty of Informatics and Computer Science / Computer Engineering (Bachelor’s degree)</h4>
-                    <h5 class="meta">National technical university of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
-	                    <div class="time">2015 - 2019</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">Faculty of Informatics and Computer Science / Computer Systems and Networks (Master’s degree) </h4>
-                    <h5 class="meta">National technical university of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
-                    <div class="time">2019 - 2020</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Intermediate)</span></li>
-                    <li>Russian <span class="lang-desc">(Native)</span></li>
-                    <li>Ukrainian <span class="lang-desc">(Native)</span></li>
-                </ul>
-            </div><!--//interests-->
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Cycling</li>
-                    <li>Yoga</li>
-                    <li>Cooking</li>
-                    <li>Reading</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
-            
-            <section class="section summary-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
-                <div class="summary">
-                    <p>I have been working as a Business/System Analyst for 2 years. Before starting my career, I graduated from a BA School that was created jointly by Netcracker and Kyiv Polytechnic Institute. I work on product microservice projects for the Telecom industry.</p>
-                </div><!--//summary-->
-            </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">System Analyst</h3>
-                            <div class="time">2019 - Present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Netcracker Technology, Kyiv</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p> Elicitation, determination of requirements;
-                        <p> Backlog formation; 
-                        <p> Analysis, description of acceptance criteria;
-                        <p> Creating of user stories;
-                        <p> Description of functional design;
-                        <p> Creating mockups;
-                        <p> Creating of the Data model, mapping of systems;
-                        <p> Creating a mind map;
-                        <p> Description of user guides;
-                        <p> Demo meetings;
-                        <p>Initial testing (BA acceptance)</p>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Responsive HTML5 Resume/CV Template for Developers">
+        <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Google Font -->
+        <link
+            href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+            rel='stylesheet' type='text/css'>
+        <!-- FontAwesome JS-->
+        <script defer src="assets/fontawesome/js/all.min.js"></script>
+        <!-- Global CSS -->
+        <link rel="stylesheet"
+            href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- Theme CSS -->
+        <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+    </head>
 
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Technical Support Specialist</h3>
-                            <div class="time">2018 - 2019</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ukr.Net, Kyiv</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Providing primary customer support, identifying causes and problems in the use of systems.
-                            <p></p> Help with setting up mail servers. 
-                            <p></p>Providing support for the use of the user interface and applications.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
+    <body>
+        <div class="wrapper">
+            <div class="sidebar-wrapper">
+                <div class="profile-container">
+                    <img class="profile" src="assets/images/profile.png" alt />
+                    <h1 class="name">Kateryna Obozna</h1>
+                    <h3 class="tagline">Business Analyst</h3>
+                </div><!--//profile-container-->
+
+                <div class="contact-container container-block">
+                    <ul class="list-unstyled contact-list">
+                        <li class="email"><i class="fas fa-envelope"></i><a
+                                href="mailto: yourname@email.com">poshtatskayakatirina@gmail.com</a></li>
+                        <li class="phone"><i class="fas fa-phone"></i><a
+                                href="tel:0123 456 789">+380 (63) 991 14 16</a></li>
+                        <!-- <li class="website"><i class="fas fa-globe"></i><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li> -->
+                        <li class="linkedin"><i class="fab fa-linkedin-in"></i><a
+                                href="#" target="_blank">www.linkedin.com/in/kateryna-poshtatska</a></li>
+                        <!-- <li class="github"><i class="fab fa-github"></i><a href="#" target="_blank">github.com/username</a></li>
+                   <!-- <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li> -->
+                    </ul>
+                </div><!--//contact-container-->
+                <div class="education-container container-block">
+                    <h2 class="container-block-title">Education</h2>
+                    <div class="item">
+                        <h4 class="degree">Faculty of Informatics and Computer
+                            Science / Computer Engineering (Bachelor’s degree)</h4>
+                        <h5 class="meta">National technical university of
+                            Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
+                        <div class="time">2015 - 2019</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree">Faculty of Informatics and Computer
+                            Science / Computer Systems and Networks (Master’s
+                            degree) </h4>
+                        <h5 class="meta">National technical university of
+                            Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
+                        <div class="time">2019 - 2020</div>
+                    </div><!--//item-->
+                </div><!--//education-container-->
+
+                <div class="education-container container-block">
+                    <h2 class="container-block-title">Courses</h2>
+                    <div class="item">
+                        <h4 class="degree">BA Camp</h4>
+                        <h5 class="meta">Kyiv Educational Center Netcracker
+                            Technology</h5>
+                        <div class="time">2018 - 2019</div>
+                    </div><!--//item-->
+                </div><!--//education-container-->
+
+                <div class="languages-container container-block">
+                    <h2 class="container-block-title">Languages</h2>
+                    <ul class="list-unstyled interests-list">
+                        <li>English <span class="lang-desc">(Upper-Intermediate)</span></li>
+                        <li>Ukrainian <span class="lang-desc">(Native)</span></li>
+                    </ul>
+                </div><!--//interests-->
+
+            </div><!--//sidebar-wrapper-->
+
+            <div class="main-wrapper">
+
+                <section class="section summary-section">
+                    <h2 class="section-title"><span class="icon-holder"><i
+                                class="fas fa-user"></i></span>Career Profile</h2>
+                    <div class="summary">
+                        <p>I am an avid analyst with almost five years of
+                            experience. My skills include defining requirements,
+                            describing functional and detailed design, preparing
+                            mockups and presenting to the customer. I work on
+                            microservice projects for the Telecommunications
+                            industry.</p>
+                    </div><!--//summary-->
+                </section><!--//section-->
+
+                <section class="section experiences-section">
+                    <h2 class="section-title"><span class="icon-holder"><i
+                                class="fas fa-briefcase"></i></span>Experiences</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Business Analyst</h3>
+                                <div class="time">2019 - Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company">Netcracker Technology, Kyiv</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p> My responsibilities include elicication of
+                                requirements, backlog formation, preparing
+                                Blueprint Materials such as System Processes and
+                                Functional Capabilities, preparing documentation
+                                and presenting solution to the Customer.
+
+                            </div><!--//details-->
+                        </div><!--//item-->
+
+                        <div class="item">
+                            <div class="meta">
+                                <div class="upper-row">
+                                    <h3 class="job-title">System Analyst</h3>
+                                    <div class="time">2019 - 2022</div>
+                                </div><!--//upper-row-->
+                                <div class="company">Netcracker Technology, Kyiv</div>
+                            </div><!--//meta-->
+                            <div class="details">
+                                <p> I had experience in preparing documentation such as Functional/Detailed Design, Data modeling, UI/UX Screens, User Guides. 
+                                    I was involved in communication with UI/UX designers, developers, architects, QAs. I performed BA acceptance.
+                                
     
-            
-                <section class="skills-section section">
-                    <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
-                    <div class="skillset">        
-                <li>Jira &amp; Confluence</li>
-                <li>Figma</li>
-                <li>Agile &amp; Scrum</li>
-                <li>Rest API</li>
-                <li>BABOK &amp; PMBOK</li>
-                <li>Data modeling &amp; Data mapping</li>
-                <li>BA acceptance &amp; Test cases</li>
-                <li>SQL</li>
-                <li>UML &amp; BPMN</li>
-                <li>TM Forum</li>
-                <li>Power BI</li>
-            </ul>
-        </div><!--//skills-section-->
-            
-        </div><!--//main-body-->
-    </div>
- 
-    <footer class="footer">
-        <div class="text-center">
-            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
-        
-</body>
-</html> 
+                                </div><!--//details-->
+                            </div><!--//item-->
+
+                        <div class="item">
+                            <div class="meta">
+                                <div class="upper-row">
+                                    <h3 class="job-title">Technical Support
+                                        Specialist</h3>
+                                    <div class="time">2018 - 2019</div>
+                                </div><!--//upper-row-->
+                                <div class="company">Ukr.Net, Kyiv</div>
+                            </div><!--//meta-->
+                            <div class="details">
+                                <p>I had experience in providing primary
+                                    customer support, identifying causes and
+                                    problems in setting up mail servers.
+
+                                </div><!--//details-->
+                            </div><!--//item-->
+
+                            <section class="skills-section section">
+                                <h2 class="section-title"><span
+                                        class="icon-holder"><i
+                                            class="fas fa-rocket"></i></span>Skills
+                                    &amp; Proficiency</h2>
+                                <div class="skillset">
+                                    <li>Jira &amp; Confluence</li>
+                                    <li>Git</li>
+                                    <li>Figma</li>
+                                    <li>Agile, Scrum, Blueprint</li>
+                                    <li>Rest API</li>
+                                    <li>BABOK &amp; PMBOK</li>
+                                    <li>Postman</li>
+                                    <li>Swagger</li>
+                                    <li>BA acceptance &amp; Test cases</li>
+                                    <li>Demo Scenarios</li>
+                                    <li>User Guides</li>
+                                    <li>UML</li>
+                                    <li>TM Forum</li>
+                                    <li>Draw.io</li>
+                                </ul>
+                            </div><!--//skills-section-->
+                            </section>
+
+                            <section
+                                class="Certificates-section section">
+                                <h2 class="section-title"><span
+                                        class="icon-holder"><i
+                                            class="fas fa-book"></i></span>Certificates</h2>
+                                <div class="skillset">
+                                    <li>Udemy: Business Analysis
+                                        Fundamentals</li>
+                                    <li>Udemy: DESIGN RULES:
+                                        Principles
+                                        + Practices for Great UI
+                                        Design
+                                    </li>
+                                    <li>Udemy: UX Design & User
+                                        Experience Design Course -
+                                        Theory Only</li>
+                                    <li>Coursera: Visual Elements of
+                                        User Interface Design </li>
+                                    <li>Coursera: Driving business
+                                        towards the Sustainable
+                                        Development Goals</li>
+                                    <li>Coursera: The Sustainable
+                                        Development Goals – A
+                                        global,
+                                        transdisciplinary vision for
+                                        the
+                                        future</li>
+                                </div><!--//certificates-section-->
+                            </section>
+                            </div><!--//item-->
+                        </section>
+                        </div>
+
+                        <footer class="footer">
+                            <div class="text-center">
+                                <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+                                <small class="copyright">Designed with <i
+                                        class="fas fa-heart"></i> by <a
+                                        href="http://themes.3rdwavemedia.com"
+                                        target="_blank">Xiaoying Riley</a>
+                                    for
+                                    developers</small>
+                            </div><!--//container-->
+                        </footer><!--//footer-->
+
+                    </body>
+                </html>
